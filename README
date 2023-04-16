@@ -1,0 +1,51 @@
+to run the program from an inputfile, simply type:
+$ make
+and then type:
+$ ./prodcon [arg] [arg] <inputfile
+-----------------------------------------------------
+to run the program from the command line, simply type:
+$ make
+and then type:
+$ ./prodcon [arg] [arg]
+then type all of your commands separated by the Enter key
+for example:
+$ T1
+$ S1
+$ T2
+$ T4
+then use the command Ctrl-D to signify the end of your arg inputs.
+------------------------------------------------------
+
+Acknowledgements:
+
+I did not collaborate with anyone on this assignment.
+
+the following source greatly helped me structure and
+learn the producer consumer thread problem:
+// https://youtu.be/l6zkaJFjUbM?list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2&t=0
+
+
+the following source helped me use a vector with a struct:
+// https://cplusplus.com/forum/beginner/3396/
+
+
+the following source helped me initialize and use mutexes:
+// https://www.ibm.com/docs/en/i/7.3?topic=ssw_ibm_i_73/apis/users_61.htm
+
+
+the following source helped me figure out how to
+pass in an int into the thread function:
+// https://stackoverflow.com/questions/39610372/passing-a-single-integer-to-a-multithread-function-in-c
+
+
+the following source helped me convert a string to a float:
+// https://www.programiz.com/cpp-programming/string-float-conversion
+
+
+the following source helped me solve header scoping issues:
+// https://stackoverflow.com/questions/18233566/variable-in-header-file-not-declared-in-scope
+
+
+the following source helped me find how to calculate time of program to certain decimal places:
+// https://stackoverflow.com/questions/40705817/c-chrono-get-seconds-with-a-precision-of-3-decimal-places
+
